@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+  width: 100%;
+	font-family: sans-serif;
+}
+
+h2, p, tr, th{
+	 border: 0; 
+	margin: 0; 
+	padding: 0; 
+	vertical-align: baseline; 
+}
+
+body {
+	background-color: #ebe7f3;
+}
+
+.intro {
+	text-align: center;
+	font-size: 1.3em;
+	margin: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+table {
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, td:not(#header) {
+	border: 1px solid black;
+	height: 30px;
+	border-collapse: collapse;
+	vertical-align: middle;
+	text-align: left;
+	table-layout:fixed;
+	padding: 0.5em;
+}
+
+tr:nth-child(even) {background-color: #f5f5f5;}
+tr:nth-child(odd) {background-color: #ffffff;}
+
+#header {
+	height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	background-color: #04AA6D;
+	color: white;
+}
+
+.facial {
+	background: linear-gradient(0deg, rgba(88,51,17,1) 0%, rgba(168,105,82,1) 100%);
+}
+
+.eyes 
+{
+	background: linear-gradient(0deg, rgba(19,105,74,1) 0%, rgba(30,186,40,1) 100%);
+}
+
+.hair {
+	background: linear-gradient(0deg, rgba(105,84,19,1) 0%, rgba(186,142,30,1) 100%);
+}
+
+.interaction {
+	background: linear-gradient(0deg, rgba(105,19,34,1) 0%, rgba(186,30,78,1) 100%);
+}
+
+ul {
+	margin: 0px;
+}
+
+.explain
+{
+	font-size: 1em;
+}
+.explain p
+{
+	font-size:1.4em;
+}
+
+footer
+{
+	text-align: center;
+	height: 20%;
+	padding: 3px;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(164,118,199);
+	color: white;
+	margin: 0;
+}
