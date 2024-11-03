@@ -69,7 +69,31 @@ tr:nth-child(odd) {background-color: #ffffff;}
 }
 
 .interaction {
-	background: linear-gradient(0deg, rgba(105,19,34,1) 0%, rgba(186,30,78,1) 100%);
+	background-image: linear-gradient(
+    180deg,
+    hsl(163deg 85% 79%) 0%,
+    hsl(162deg 85% 79%) 3%,
+    hsl(160deg 85% 80%) 6%,
+    hsl(159deg 84% 80%) 10%,
+    hsl(158deg 84% 80%) 13%,
+    hsl(156deg 84% 81%) 17%,
+    hsl(155deg 83% 81%) 21%,
+    hsl(154deg 83% 81%) 25%,
+    hsl(152deg 83% 82%) 30%,
+    hsl(150deg 82% 82%) 34%,
+    hsl(149deg 82% 83%) 39%,
+    hsl(147deg 81% 83%) 45%,
+    hsl(145deg 81% 83%) 50%,
+    hsl(143deg 80% 84%) 55%,
+    hsl(141deg 80% 84%) 61%,
+    hsl(139deg 79% 84%) 67%,
+    hsl(137deg 78% 85%) 73%,
+    hsl(135deg 78% 85%) 78%,
+    hsl(133deg 77% 85%) 84%,
+    hsl(130deg 76% 86%) 90%,
+    hsl(127deg 75% 86%) 95%,
+    hsl(125deg 74% 86%) 100%
+  );
 }
 
 ul {
